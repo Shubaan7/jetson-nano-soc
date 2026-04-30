@@ -1,5 +1,7 @@
 # Jetson Nano SoC Power-Performance Characterization
 
+**Shubaan Meyyappan** · Wentworth Institute of Technology
+
 A systematic characterization of the NVIDIA Tegra X1 SoC across configurable power modes, using hardware instrumentation and custom CUDA benchmarks. Power draw is measured in real-time from the onboard INA3221 triple-channel power monitor via I2C, while custom CUDA kernels stress different subsystems of the GPU.
 
 **Platform:** NVIDIA Jetson Nano P3450 (Tegra X1, 128 Maxwell CUDA cores, 4GB LPDDR4)  
@@ -188,4 +190,6 @@ python3 scripts/analyze_data.py
 
 ---
 
-*Conducted as part of an independent study in Embedded GPU Computing (ELEC3800) at Wentworth Institute of Technology, Spring/Summer 2026.*
+---
+
+**Shubaan Meyyappan** · [shubaan76@gmail.com](mailto:shubaan76@gmail.com) · [github.com/Shubaan7](https://github.com/Shubaan7) · [linkedin.com/in/shubaan7](https://www.linkedin.com/in/shubaan7) · [Portfolio](https://shubaanmeyyappan.floot.app/)
